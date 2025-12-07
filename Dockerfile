@@ -1,13 +1,14 @@
 # ETAPA 1: Construcción (Build)
-# Usamos Maven con una versión moderna de Java (Temurin)
-FROM maven:3.9.6-eclipse-temurin-17 AS build
+# Usamos Maven con Java 21 (Temurin) para coincidir con tu proyecto
+FROM maven:3.9.6-eclipse-temurin-21 AS build
 WORKDIR /app
 COPY . .
-RUN mvn clean package -DskipTests
+# Agregamos encoding UTF-8 para evitar el error de tildes
+RUN mvn clean package -DskipTests -Dproject.build.sourceEncoding=UTF-8
 
 # ETAPA 2: Ejecución (Run)
-# Cambiamos openjdk por eclipse-temurin que sí existe y es ligera (Alpine)
-FROM eclipse-temurin:17-jdk-alpine
+# Usamos Java 21 ligero para correr la app
+FROM eclipse-temurin:21-jdk-alpine
 COPY --from=build /app/target/*.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java","-jar","app.jar"]
