@@ -12,9 +12,9 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/dashboard")
-@CrossOrigin(origins = "*") // 👈 Permite acceso desde Angular (puerto 4200)
 public class DashboardController {
 
     @Autowired
