@@ -1,0 +1,702 @@
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 14:47:57'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 14:47:57'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 14:47:57'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 14:47:57'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 14:47:57'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 19:50:41'
+   -> Versión Nube:  '09/12/2025 14:47:57'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-07...
+   -> Leídos 12512 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-07)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 09/12/2025 19:50:41
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: 'None'
+   -> Versión Nube:  '09/12/2025 19:50:41'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-07...
+
+❌ ERROR GENERAL: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 50000 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 50000 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: 'None'
+   -> Versión Nube:  '09/12/2025 19:50:41'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-07...
+
+❌ ERROR GENERAL: (psycopg2.OperationalError) connection to server at "localhost" (::1), port 50000 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (127.0.0.1), port 50000 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+--- 🚀 INICIANDO ETL (VENTANA 2 DÍAS | LOTE 2000) ---
+   -> Versión Local: '09/12/2025 20:00:04'
+   -> Versión Nube:  '09/12/2025 19:50:41'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-07...
+   -> Leídos 12512 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-07)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 09/12/2025 20:00:04
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '09/12/2025 22:00:02'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 07:15:01'
+   -> Versión Nube:  '09/12/2025 22:00:02'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25006 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 07:15:01
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 07:45:00'
+   -> Versión Nube:  '10/12/2025 07:15:01'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25006 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 07:45:00
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 08:15:00'
+   -> Versión Nube:  '10/12/2025 07:45:00'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25006 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 08:15:00
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 08:45:02'
+   -> Versión Nube:  '10/12/2025 08:15:00'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25006 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 08:45:02
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 09:15:02'
+   -> Versión Nube:  '10/12/2025 08:45:02'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25004 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 09:15:02
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 09:45:00'
+   -> Versión Nube:  '10/12/2025 09:15:02'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25004 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 09:45:00
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 10:45:03'
+   -> Versión Nube:  '10/12/2025 09:45:00'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25017 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 10:45:03
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 11:15:02'
+   -> Versión Nube:  '10/12/2025 10:45:03'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25017 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 11:15:02
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 12:15:01'
+   -> Versión Nube:  '10/12/2025 11:15:02'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25020 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 12:15:01
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ❌ FALLÓ
+      (No se pudo establecer conexión con BASE LOCAL. Verifica red/credenciales)
+⛔ STOP: Abortando proceso por fallo en origen.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 12:45:04'
+   -> Versión Nube:  '10/12/2025 12:15:01'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25020 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 12:45:04
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 14:00:01'
+   -> Versión Nube:  '10/12/2025 12:45:04'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25026 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 14:00:01
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 14:00:01'
+   -> Versión Nube:  '10/12/2025 14:00:01'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 14:00:01'
+   -> Versión Nube:  '10/12/2025 14:00:01'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 14:00:01'
+   -> Versión Nube:  '10/12/2025 14:00:01'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 16:00:02'
+   -> Versión Nube:  '10/12/2025 14:00:01'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25030 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 16:00:02
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 16:00:02'
+   -> Versión Nube:  '10/12/2025 16:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 16:00:02'
+   -> Versión Nube:  '10/12/2025 16:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 16:00:02'
+   -> Versión Nube:  '10/12/2025 16:00:02'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 18:00:01'
+   -> Versión Nube:  '10/12/2025 16:00:02'
+⚡ DETECTADA NUEVA VERSIÓN. Iniciando carga...
+
+[PASO 2] Procesando datos desde: 2025-12-08...
+   -> Leídos 25032 registros locales.
+   -> 🧹 Limpiando Nube (desde 2025-12-08)...
+   -> 📥 Subiendo registros (Lotes de 2000)...
+   ✅ Tabla Principal Sincronizada.
+
+[PASO 3] Sincronizando Errores...
+   -> Insertando Padre...
+   -> Insertando Hijo...
+   ✅ Errores Sincronizados.
+
+[PASO 4] Actualizando Versión...
+   ✅ Versión actualizada a: 10/12/2025 18:00:01
+
+🚀 PROCESO FINALIZADO.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 18:00:01'
+   -> Versión Nube:  '10/12/2025 18:00:01'
+✅ El sistema ya está actualizado. No se requiere carga.
+--- 🚀 INICIANDO ETL (CON VALIDACIÓN DE CONEXIÓN) ---
+
+[PASO 0] Validando Conexiones...
+   🔎 Probando conexión a BASE LOCAL... ✅ OK
+   🔎 Probando conexión a NUBE RENDER... ✅ OK
+
+[PASO 1] Verificando Versiones...
+   -> Versión Local: '10/12/2025 18:00:01'
+   -> Versión Nube:  '10/12/2025 18:00:01'
+✅ El sistema ya está actualizado. No se requiere carga.
